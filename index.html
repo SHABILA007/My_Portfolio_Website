@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="crossorigin="anonymous"referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="potfolio_website.css">
+    <link rel="stylesheet" href="res.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <button class="navbar-toggler" id="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item"></li>
+                        <a class="nav-link" href="#video" onclick="video()">Self Intro</a>
+                        <div id="videotag">
+                            <iframe width="560" height="315"  src="https://www.youtube.com/embed/75-gC3NbLE8?si=ETVFWEuKSV2rsuRH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#qualifications">Qualifications</a>
+                      </li>
+                      <li class="nav-item"></li>
+                        <a class="nav-link" href="#skills">Skills</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                      </li>
+                      <li class="nav-item"></li>
+                        <a class="nav-link" href="#about">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="home-text">
+            <div class="slide">
+                <i class="fa-solid fa-bars"></i>
+                <div class="nav_page"></div>
+                <span class="one">Hello</span>
+                <span class="two">I'm</span>
+            </div>
+            <h1>SHABILA T.S</h1>
+            <h3>Full stack <span>Developer</span></h3>
+            <p>I'm a passionate and responsible Full Stack developer, <br> skilled in developing websites and applications <br> using the latest technologies.</p>
+            <div class="button">
+                <a href="media/resume.html" class="btn">Resume</a>
+            </div>
+        </div>
+    </section>
+    <section class="qualifications" id="qualifications">
+        <div class="main-text">
+            <h2><span>My</span> Qualifications</h2>
+        </div>
+        <div class="qualifications-content">
+            <div class="box">
+                <div class="q-icons">
+                    <i class='bx bx-book-reader'></i>
+                </div>
+                <h3>UG Degree</h3>
+                <h5>2021-2024</h5>
+                <p>RVS college of Arts and Science,
+                   Coimbatore<br><br>
+                   passed with 73% from UG(B.COM CA)
+                </p>
+                <a href="images/consolidate marksheet.jpg" class="btn">Certificate</a>
+            </div>
+            <div class="box">
+                <div class="q-icons">
+                    <i class='bx bx-book-reader'></i>
+                </div>
+                <h3>HSC</h3>
+                <h5>2020-2021</h5>
+                <p>Kongu Vellalar Matric. Hr. Sec. School,
+                   Tirupur<br><br>
+                   passed with 81% from HSC</p>
+                <a href="images/12th marksheet.jpg" class="btn">Certificate</a>
+            </div>
+            <div class="box">
+                <div class="q-icons">
+                    <i class='bx bx-book-reader'></i>
+                </div>
+                <h3>SSLC</h3>
+                <h5>2018-2019</h5>
+                <p>Kongu Vellalar Matric. Hr. Sec. School,
+                    Tirupur<br><br>
+                    passed with 68% from SSLC</p>
+                <a href="images/10th marksheet.jpg" class="btn">Certificate</a>
+            </div>
+        </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="main-text">
+            <h2><span>My</span> skills</h2>
+        </div>
+        <div class="skills-content">
+            <div class="box1">
+                <div class="s-icons">
+                    <i class='bx bxl-html5'></i>
+                </div>
+                <h3>HTML & CSS</h3>
+                <p>Experienced in creating responsive web pages using HTML elements</p>
+            </div>
+            <div class="box1">
+                <div class="s-icons">
+                    <i class='bx bxl-javascript'></i>
+                </div>
+                <h3>JavaScript</h3>
+                <p>Proficient in JavaScript,developing web applications</p>
+            </div>
+            <div class="box1">
+                <div class="s-icons">
+                    <i class='bx bx-book-reader'></i>
+                </div>
+                <h3>EXCEL(Basics)</h3>
+                <p>Proficient in Microsoft Excel,with experience in data visualization</p>
+            </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+        <div class="main-text">
+            <h2><span>Latest</span> Projects</h2>
+        </div>
+        <div class="portfolio-content">
+            <div class="row" id="row2">
+                <img src="images/project2.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Pacman</h5>
+                    <a href="https://github.com/SHABILA007/Pacmen"><i class='bx bxl-github'></i></a>
+                    <a href=" https://shabila007.github.io/Pacmen/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row3">
+                <img src="images/project3.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Eye_Ball_Movement</h5>
+                    <a href="https://github.com/SHABILA007/Eye_Ball_Movement"><i class='bx bxl-github'></i></a>
+                    <a href=" https://shabila007.github.io/Eye_Ball_Movement/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row1">
+                <img src="images/project1.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Bouncing_Ball</h5>
+                    <a href="https://github.com/SHABILA007/Bouncing_Ball"><i class='bx bxl-github'></i></a>
+                    <a href="https://shabila007.github.io/Bouncing_Ball/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row4">
+                <img src="images/project4.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Moving_Ball</h5>
+                    <a href="https://github.com/SHABILA007/Moving_Ball"><i class='bx bxl-github'></i></a>
+                    <a href=" https://shabila007.github.io/Moving_Ball/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row5">
+                <img src="images/project5.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Map_Animation</h5>
+                    <a href="https://github.com/SHABILA007/Map_Animation"><i class='bx bxl-github'></i></a>
+                    <a href="https://shabila007.github.io/Map_Animation/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row6">
+                <img src="images/project6.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Boston_Data</h5>
+                    <a href="https://github.com/SHABILA007/Boston_Data"><i class='bx bxl-github'></i></a>
+                    <a href=" https://shabila007.github.io/Boston_Data/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row7">
+                <img src="images/project7.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Moving_Pacman</h5>
+                    <a href="https://github.com/SHABILA007/Moving_Pacman"><i class='bx bxl-github'></i></a>
+                    <a href="https://shabila007.github.io/Moving_Pacman/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row8">
+                <img src="images/project8.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Word_Count</h5>
+                    <a href="https://github.com/SHABILA007/Word_Count"><i class='bx bxl-github'></i></a>
+                    <a href=" https://shabila007.github.io/Word_Count/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="row" id="row9">
+                <img src="images/project9.jpg" height="250" width="200">
+                <div class="layer">
+                    <h5>Hanoi_Tower</h5>
+                    <a href="https://github.com/SHABILA007/Hanoi_Tower"><i class='bx bxl-github'></i></a>
+                    <a href="https://shabila007.github.io/Hanoi_Tower/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <div class="about-img">
+        <img src="images/user.jpg">
+        </div>
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h4>Full stack Developer!</h4>
+            <p>Name: SHABILA T.S<br><br>
+               DOB: 24.02.2004<br><br>
+               Age: 21<br><br>
+               Gender: Female<br><br>
+               Degree: Master Of Computer Applications(pursuing)<br><br>
+               Gmail: sabilathangaraj007@gmail.com<br><br>
+               Phone no: +91 9384275981<br><br>
+               Address: 148,sri nagar 1st street,pichampalayam pudur,Tirupur,TamilNadu.<br><br>
+               Nationality: Indian
+            </p>
+            <p>"Hi, I'm SHABILA, a fresh Full stack developer with a passion for building beautiful websites and web applications. I have basic knowledge of HTML, CSS, and JavaScript."</p>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me!</span></h2>
+            <h4>If you have any project in your mind.</h4>
+            <p>I'm a Full Stack developer skilled in developing websites and applications using the <br> latest technologies</p>
+            <div class="list">
+                <li><a href="#">9384275981</a></li>
+                <li><a href="#">sabilathangaraj007@gmail.com</a></li>
+                <li><a href="#">Like Share & Subscribe</a></li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://wa.link/lczz0r"><i class='bx bxl-whatsapp'></i></a>
+                <a href="https://www.linkedin.com/in/shabila-thangaraj-51205724b/"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/SHABILA007"><i class='bx bxl-github'></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="https://formsubmit.co/sabilathangaraj007@gmail.com" method="POST">
+                <input type="name" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="number" name="mobileNumber" placeholder="Your Mobile Number" required>
+                <textarea name="message" id="" cols="35" rows="18" placeholder="How Can I Help You" required></textarea>
+                <input type="submit" value="Send Message" name="submit" class="Submit" required>
+                <input type="hidden" name="_captcha" value="false">
+            </form>
+        </div>
+    </section>
+    <div class="footer">
+        Copyright &copy; 2024 By SHABILA | All Right Reserved</p>
+    </div>
+</body>
+<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</html>
